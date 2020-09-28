@@ -23,7 +23,7 @@ router.get('/datastudent', (req, res)=>{
 router.get('/datadetection', (req, res)=>{
   
     var allData = []
-    db.collection('students')
+    db.collection('detection')
     .get()
     .then(snapshot => {
         snapshot.forEach((hasil)=>{
