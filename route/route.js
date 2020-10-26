@@ -71,7 +71,7 @@ router.get('/deletestudent', (req, res)=>{
 
         });
         res.send({
-            "message": req.query.id + "deleted successfully"
+            "message": req.query.id + " deleted successfully"
         });
     });
     
@@ -86,7 +86,7 @@ router.get('/deletedetection', (req, res)=>{
 
         });
         res.send({
-            "message": req.query.id + "deleted successfully"
+            "message": req.query.id + " deleted successfully"
         });
     });
 });
